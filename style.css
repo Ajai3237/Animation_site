@@ -211,11 +211,11 @@ nav img{
 }
 
 #card1 {
-    animation: slideInFromLeft 3s ease-out;
+    animation: slideInFromLeft 3s ease-out infinite;
 }
 
 #card3 {
-    animation: slideInFromRight 3s ease-out;
+    animation: slideInFromRight 3s ease-out infinite;
 }
 
 @keyframes zoomIn {
@@ -239,12 +239,13 @@ nav img{
 }
 
 #card2 {
-    animation: zoomIn 3s ease-in-out;
+    animation: zoomIn 3s ease-in-out infinite;
 }
 
 .explore-2 img {
-    animation: fadeIn 3s ease-in-out;
+    animation: fadeIn 3s ease-in-out infinite;
 }
 .explore-1 img {
-    animation: fadeIn 3s ease-in-out;
+    animation: fadeIn 3s ease-in-out infinite;
+
 }
